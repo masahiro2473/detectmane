@@ -1,0 +1,303 @@
+body{
+    display:block;
+    margin:8px;
+}
+header{
+    padding:10px;
+    background-color:white;
+    margin-top:30px;
+    text-align:center;
+    display:block;
+}
+.header-img{
+    width:56px;
+}
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.header-contents{
+    width:100%;
+    padding:0 20%;
+}
+header li {
+    width:20%;
+}
+li{
+    list-style:none;
+    float:left;
+}
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+header a{display: inline-block;
+    color: black;
+    border-bottom: solid 0.8px;
+    padding-bottom: 2px;
+    letter-spacing: 0.25em;
+    line-height: 4.5em;
+    font-size: 0.8em;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.clear{
+    clear:both;
+}
+.l-service{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.h-service{
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 7px;
+}
+.cat::first-letter{
+    font-size:50px;
+}
+.h-service-sub{
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 82px;
+    letter-spacing: 4px;
+}
+.hr-service{
+    position: relative;
+    top: -45px;
+    background-color: black;
+    height: 0.5px;
+    width: 144px;
+}
+.service-contents{
+    margin-top:100px;
+}
+.main-contents{
+    font-size: 20px;
+    width: 50%;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    margin-left: 55%;
+}
+.main-contents h1{
+    text-align: left;
+      display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+}
+.under-contents{
+    position: relative;
+    top: -235px;
+    z-index: -1;
+    margin-left: 10%;
+    height: 6px;
+    width: 56%;
+    background: linear-gradient(90deg, #3C8DD7 0%, #ACE2FF 50%, white 100%);
+    background-image: linear-gradient(90deg, rgb(60, 141, 215) 0%, rgb(172, 226, 255) 50%, white 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    border: none;
+    border-radius: 30.5px;
+}
+.japanese{
+    width: 50%;
+    margin-top: -15%;
+    margin-left: 10%;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-style: normal;
+    font-size: 24px;
+}
+.japanese h2{
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+@media(max-width:768px){
+    .main-contents{
+        font-size: 11px;
+        margin-left: 50%;
+    }
+}
+.web-design{
+    margin-top:250px;
+}
+.web-design img{
+    width: 40%;
+    margin-left: -660px;
+}
+.abc{
+    padding-left: 30px;
+    position: relative;
+    top: -58px;
+    margin-left: 10%;
+    width: 40%;
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, #3E8FD8 0%, white 100%);
+    border-image-slice: 1;
+    border-radius: 30.5px;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+.abc h3{
+    font-size: 36px;
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.abc p{
+    text-align:left;
+}
+.movie-creation{
+    margin-top:-66px;
+}
+.movie-creation img{
+    width: 40%;
+    margin-left: 660px; 
+}
+.def{
+    padding-left: 30px;
+    position: relative;
+    top: -60px;
+    margin-left: 60%;
+    width: 40%;
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg,#3E8FD8 0%, white 100%);
+    border-image-slice: 1;
+    border-radius: 30.5px;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+.def h3{
+    font-size: 36px;
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.def p{
+    text-align: left;
+}
+.system-integration{
+    margin-top: -66px;
+}
+.system-integration img{
+    width: 40%;
+    margin-left: -660px;
+}
+.ghi{
+    padding-left: 30px;
+    position: relative;
+    top: -60px;
+    margin-left: 10%;
+    width: 40%;
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, #3E8FD8 0%, white 100%);
+    border-image-slice: 1;
+    border-radius: 30.5px;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+.ghi h3{
+    text-align: left;
+    font-size: 36px;
+    margin: 5px 0 0 0;
+}
+.ghi p{
+    text-align:left;
+}
+footer{
+    margin-top:100px;
+}
+.footer-img{
+    width:56px;
+}
+.footer-list{
+    position:relative;
+    overflow:hidden;
+}
+.ul-list{
+    position: relative;
+    float: left;
+    left: 44%;
+}
+.li-list{
+    position: relative;
+    left: -50%;
+    margin: 0 5px;
+    float: left;
+    padding: 0 5px;
+}
+.li-list a{
+    width: 120px;
+    padding: 0 50%;
+    display: inline-block;
+    color: black;
+    letter-spacing: 4px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.a-link{
+    width: 120px;
+    padding: 0 50%;
+    display: inline-block;
+    color: black;
+    letter-spacing: 4px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.information{
+    margin-left: -40px;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+.address{
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    width: 50%;
+}
+.tellphone{
+    border: solid 1px gray;
+    width: 25%;
+}
+.li-contact{
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    width: 25%;
+    padding: 16px 0;
+    text-decoration: none;
+}

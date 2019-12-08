@@ -1,0 +1,214 @@
+body{
+    display:block;
+    margin:8px;
+}
+header{
+    padding:10px;
+    background-color:white;
+    margin-top:30px;
+    text-align:center;
+    display:block;
+}
+.header-img{
+    width:56px;
+}
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.header-contents{
+    width:100%;
+    padding:0 20%;
+}
+header li {
+    width:20%;
+}
+li{
+    list-style:none;
+    float:left;
+}
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+header a{display: inline-block;
+    color: black;
+    border-bottom: solid 0.8px;
+    padding-bottom: 2px;
+    letter-spacing: 0.25em;
+    line-height: 4.5em;
+    font-size: 0.8em;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.clear{
+    clear:both;
+}
+.l-main-works{
+    margin-top:70px;
+    margin-bottom:10px;
+}
+.l-h-works{
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 7px;
+}
+.h-works-sub-works{
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 82px;
+    letter-spacing: 4px;
+}
+.hr-works{
+    position: relative;
+    top: -45px;
+    background-color: black;
+    height: 0.5px;
+    width: 144px;
+}
+.works-contents {
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: left;
+    width: 980px;
+}
+.tapi{
+    width: 49%;
+    display: inline-block;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.h-tapi{
+    position: absolute;
+    bottom: 43px;
+    width: 74%;
+    color: #333333;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.h-tapi-sub{
+    position: absolute;
+    bottom: 15px;
+    width: 65%;
+    color: #7d7d7d;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.carrier{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.h-carrier{
+    position: absolute;
+    bottom: 43px;
+    width: 85%;
+    color: #333333;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.h-carrier-sub{
+    position: absolute;
+    bottom: 15px;
+    width: 65%;
+    color: #7d7d7d;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.div-tapi{
+    position:relative;
+}
+.div-carrier{
+    position:relative;
+}
+footer{
+    margin-top:100px;
+}
+.footer-img{
+    width:56px;
+}
+.footer-list{
+    position:relative;
+    overflow:hidden;
+}
+.ul-list{
+    position: relative;
+    float: left;
+    left: 44%;
+}
+.li-list{
+    position: relative;
+    left: -50%;
+    margin: 0 5px;
+    float: left;
+    padding: 0 5px;
+}
+.li-list a{
+    width: 120px;
+    padding: 0 50%;
+    display: inline-block;
+    color: black;
+    letter-spacing: 4px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.a-link{
+    width: 120px;
+    padding: 0 50%;
+    display: inline-block;
+    color: black;
+    letter-spacing: 4px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: garamond-premier-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.information{
+    margin-left: -40px;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+.address{
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    width: 50%;
+}
+.tellphone{
+    border: solid 1px gray;
+    width: 25%;
+}
+.li-contact{
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    width: 25%;
+    padding: 16px 0;
+    text-decoration: none;
+}
